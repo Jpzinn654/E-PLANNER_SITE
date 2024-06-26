@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>E-PLANNER</title>
 </head>
+
 <body>
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid d-flex justify-content-envely">
-              <a class="navbar-brand" href="#">E-PLANNER</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                </ul>
-              </div>
+                <a class="navbar-brand" href="#">E-PLANNER</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
 
-          <section id="home" class="vh-100 d-flex align-items-center">
+        <section id="home" class="vh-100 d-flex align-items-center">
             <div class="container">
                 <div class=" row row-cols-1 row-cols-lg-2 mx-auto d-flex align-items-center">
                     <!--Texto Parte A-->
@@ -47,8 +52,7 @@
                     </div>
                     <!--Imagem Parte B-->
                     <div class="col d-flex align-items-center justify-content-center mt-5 mx-auto">
-                        <img src="img/tela.png" class="img-fluid rounded w-75" id="img1"
-                            alt="Imagem da tela">
+                        <img src="img/tela.png" class="img-fluid rounded w-75" id="img1" alt="Imagem da tela">
                     </div>
                 </div>
             </div>
@@ -56,11 +60,38 @@
     </header>
 
     <main>
-        <section>
-            
+        <section id="sobre">
+            <div class="container vh-100 d-flex justify-content-center align-items-center">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-12 col-lg-6 col-md-8">
+                        <h2>Sobre o E-PLANNER</h2>
+                        <p>O E-PLANNER é uma solução inovadora desenvolvida para facilitar o gerenciamento de finanças
+                            pessoais. Nosso objetivo é ajudar pessoas leigas a entender e controlar suas despesas de
+                            maneira simples e eficiente.</p>
+
+                        <h3>História do Projeto</h3>
+                        <p>O E-PLANNER nasceu da necessidade de simplificar a gestão financeira para indivíduos que não
+                            possuem uma formação específica na área. Desenvolvido como parte do nosso TCC na ETEC -
+                            Escola Técnica Estadual de São Paulo, o aplicativo foi projetado para oferecer uma interface
+                            amigável e intuitiva, facilitando o acompanhamento das finanças diárias.</p>
+
+                        <h3>Missão e Visão</h3>
+                        <p>Nossa missão é capacitar nossos usuários a tomar decisões financeiras informadas,
+                            proporcionando ferramentas acessíveis e eficazes para o controle de despesas. Acreditamos
+                            que uma boa gestão financeira é fundamental para alcançar a estabilidade e a prosperidade
+                            pessoal.</p>
+                    </div>
+                    <div class="col-12 col-lg-6 col-md-4" id="img">
+                        <img src="img/tela.png" alt="Imagem de telas" class="img-fluid mx-auto w-100">
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
