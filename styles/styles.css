@@ -10,6 +10,15 @@ header {
     color: white;
 }
 
+.vh-auto{
+    min-height: 100vh;
+}
+
+#funcionalidades {
+    background-image: url(../img/bg-hero2.png);
+    background-size: cover;
+}
+
 @media (max-width: 900px) {
     #img1 {
         display: none;
@@ -17,4 +26,5 @@ header {
     #img2 {
         display: none;
     }
+    
 }
